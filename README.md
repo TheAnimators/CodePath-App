@@ -1,4 +1,4 @@
-# Group Project  - *RateMyCampus*
+# Group Project  - *Name of App Here*
 
 Time spent: **X** hours spent in total
 
