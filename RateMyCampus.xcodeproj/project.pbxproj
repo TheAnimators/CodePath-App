@@ -13,6 +13,8 @@
 		198A613E206C2F3F00661077 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 198A613D206C2F3F00661077 /* Assets.xcassets */; };
 		198A6141206C2F3F00661077 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 198A613F206C2F3F00661077 /* LaunchScreen.storyboard */; };
 		2670E8E320A13FC10025F005 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2670E8E220A13FC10025F005 /* ProfileViewController.swift */; };
+		2670E8EB20A2CEEF0025F005 /* CollegeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2670E8EA20A2CEEF0025F005 /* CollegeDetailViewController.swift */; };
+		268479ED20A2D69200AEC62A /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268479EC20A2D69200AEC62A /* NewsTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		198A6140206C2F3F00661077 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		198A6142206C2F3F00661077 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2670E8E220A13FC10025F005 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		2670E8EA20A2CEEF0025F005 /* CollegeDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollegeDetailViewController.swift; sourceTree = "<group>"; };
+		268479EC20A2D69200AEC62A /* NewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				198A613F206C2F3F00661077 /* LaunchScreen.storyboard */,
 				198A6142206C2F3F00661077 /* Info.plist */,
 				2670E8E220A13FC10025F005 /* ProfileViewController.swift */,
+				2670E8EA20A2CEEF0025F005 /* CollegeDetailViewController.swift */,
+				268479EC20A2D69200AEC62A /* NewsTableViewCell.swift */,
 			);
 			path = RateMyCampus;
 			sourceTree = "<group>";
@@ -141,7 +147,9 @@
 			files = (
 				2670E8E320A13FC10025F005 /* ProfileViewController.swift in Sources */,
 				198A6139206C2F3F00661077 /* ViewController.swift in Sources */,
+				268479ED20A2D69200AEC62A /* NewsTableViewCell.swift in Sources */,
 				198A6137206C2F3F00661077 /* AppDelegate.swift in Sources */,
+				2670E8EB20A2CEEF0025F005 /* CollegeDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
