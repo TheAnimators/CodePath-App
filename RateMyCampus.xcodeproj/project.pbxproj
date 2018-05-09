@@ -12,9 +12,11 @@
 		198A613C206C2F3F00661077 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 198A613A206C2F3F00661077 /* Main.storyboard */; };
 		198A613E206C2F3F00661077 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 198A613D206C2F3F00661077 /* Assets.xcassets */; };
 		198A6141206C2F3F00661077 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 198A613F206C2F3F00661077 /* LaunchScreen.storyboard */; };
+		19FC9E5220A3347900B0B44C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FC9E5120A3347900B0B44C /* LoginViewController.swift */; };
 		2670E8E320A13FC10025F005 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2670E8E220A13FC10025F005 /* ProfileViewController.swift */; };
 		2670E8EB20A2CEEF0025F005 /* CollegeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2670E8EA20A2CEEF0025F005 /* CollegeDetailViewController.swift */; };
 		268479ED20A2D69200AEC62A /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268479EC20A2D69200AEC62A /* NewsTableViewCell.swift */; };
+		EE11E7F1BB67DAF9FBCD6641 /* Pods_RateMyCampus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEAD6678044A5EB467572E8B /* Pods_RateMyCampus.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,9 +27,13 @@
 		198A613D206C2F3F00661077 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		198A6140206C2F3F00661077 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		198A6142206C2F3F00661077 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19FC9E5120A3347900B0B44C /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		2670E8E220A13FC10025F005 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		2670E8EA20A2CEEF0025F005 /* CollegeDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollegeDetailViewController.swift; sourceTree = "<group>"; };
 		268479EC20A2D69200AEC62A /* NewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
+		AA6D305BD963494A57DF83BB /* Pods-RateMyCampus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RateMyCampus.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RateMyCampus/Pods-RateMyCampus.debug.xcconfig"; sourceTree = "<group>"; };
+		DE21EDC419C0CD2EF9281F33 /* Pods-RateMyCampus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RateMyCampus.release.xcconfig"; path = "Pods/Target Support Files/Pods-RateMyCampus/Pods-RateMyCampus.release.xcconfig"; sourceTree = "<group>"; };
+		DEAD6678044A5EB467572E8B /* Pods_RateMyCampus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RateMyCampus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE11E7F1BB67DAF9FBCD6641 /* Pods_RateMyCampus.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,6 +53,8 @@
 			children = (
 				198A6135206C2F3F00661077 /* RateMyCampus */,
 				198A6134206C2F3F00661077 /* Products */,
+				C72F6DF73AEC61683DF5B226 /* Pods */,
+				AEB0B990B940E88E1C42B6EB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,17 +69,51 @@
 		198A6135206C2F3F00661077 /* RateMyCampus */ = {
 			isa = PBXGroup;
 			children = (
+				19FC9E5420A3753700B0B44C /* Cells */,
+				19FC9E5320A3751500B0B44C /* ViewControllers */,
 				198A6136206C2F3F00661077 /* AppDelegate.swift */,
 				198A6138206C2F3F00661077 /* ViewController.swift */,
 				198A613A206C2F3F00661077 /* Main.storyboard */,
 				198A613D206C2F3F00661077 /* Assets.xcassets */,
 				198A613F206C2F3F00661077 /* LaunchScreen.storyboard */,
 				198A6142206C2F3F00661077 /* Info.plist */,
-				2670E8E220A13FC10025F005 /* ProfileViewController.swift */,
-				2670E8EA20A2CEEF0025F005 /* CollegeDetailViewController.swift */,
-				268479EC20A2D69200AEC62A /* NewsTableViewCell.swift */,
 			);
 			path = RateMyCampus;
+			sourceTree = "<group>";
+		};
+		19FC9E5320A3751500B0B44C /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				19FC9E5120A3347900B0B44C /* LoginViewController.swift */,
+				2670E8E220A13FC10025F005 /* ProfileViewController.swift */,
+				2670E8EA20A2CEEF0025F005 /* CollegeDetailViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		19FC9E5420A3753700B0B44C /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				268479EC20A2D69200AEC62A /* NewsTableViewCell.swift */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		AEB0B990B940E88E1C42B6EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DEAD6678044A5EB467572E8B /* Pods_RateMyCampus.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C72F6DF73AEC61683DF5B226 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AA6D305BD963494A57DF83BB /* Pods-RateMyCampus.debug.xcconfig */,
+				DE21EDC419C0CD2EF9281F33 /* Pods-RateMyCampus.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -80,9 +123,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 198A6145206C2F3F00661077 /* Build configuration list for PBXNativeTarget "RateMyCampus" */;
 			buildPhases = (
+				E8B1BBE15DAC9F6956B6A434 /* [CP] Check Pods Manifest.lock */,
 				198A612F206C2F3F00661077 /* Sources */,
 				198A6130206C2F3F00661077 /* Frameworks */,
 				198A6131206C2F3F00661077 /* Resources */,
+				A4C1D104E6FF29928DD8A944 /* [CP] Embed Pods Frameworks */,
+				B9A6AFA91D41D6A6CB5EC1A7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -140,11 +186,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A4C1D104E6FF29928DD8A944 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RateMyCampus/Pods-RateMyCampus-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/Parse/Parse.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Parse.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RateMyCampus/Pods-RateMyCampus-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9A6AFA91D41D6A6CB5EC1A7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RateMyCampus/Pods-RateMyCampus-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8B1BBE15DAC9F6956B6A434 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RateMyCampus-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		198A612F206C2F3F00661077 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19FC9E5220A3347900B0B44C /* LoginViewController.swift in Sources */,
 				2670E8E320A13FC10025F005 /* ProfileViewController.swift in Sources */,
 				198A6139206C2F3F00661077 /* ViewController.swift in Sources */,
 				268479ED20A2D69200AEC62A /* NewsTableViewCell.swift in Sources */,
@@ -270,6 +373,7 @@
 		};
 		198A6146206C2F3F00661077 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA6D305BD963494A57DF83BB /* Pods-RateMyCampus.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = RateMyCampus/Info.plist;
@@ -282,6 +386,7 @@
 		};
 		198A6147206C2F3F00661077 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE21EDC419C0CD2EF9281F33 /* Pods-RateMyCampus.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = RateMyCampus/Info.plist;

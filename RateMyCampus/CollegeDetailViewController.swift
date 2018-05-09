@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Parse
 
 class CollegeDetailViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
@@ -37,7 +38,7 @@ class CollegeDetailViewController: UIViewController, UITableViewDelegate, UITabl
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = newsTableView.dequeueReusableCell(withIdentifier: "NewsCell")
         
-        return cell
+        return cell!
         
     }
 
