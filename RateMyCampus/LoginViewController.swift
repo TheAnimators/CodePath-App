@@ -70,6 +70,7 @@ class LoginViewController: UIViewController
         // set user properties
         newUser.username = usernameField.text
         newUser.password = passwordField.text
+        print("Account created")
     }
 
     /*
